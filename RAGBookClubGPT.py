@@ -160,4 +160,3 @@ class RAGBookClubGPT:
                 self.facilitate_free_discussion(opinion, time_limit=10) # 테스트를 위해 10초로 설정
 
         self.summarize_meeting(topics, all_responses)
-
