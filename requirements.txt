@@ -1,0 +1,11 @@
+streamlit
+openai
+langchain>=0.3,<0.4
+langchain-core>=0.3,<0.4
+langchain-chroma>=0.1.4,<0.2
+langchain-openai>=0.2,<0.3
+langchain-community
+pypdf
+chromadb
+# 맥 os의 경우 파이썬 버전 == 3.11.5이어야 langchain-chroma 설치됨
+# pip install --upgrade pip setuptools wheel meson ninja
